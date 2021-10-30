@@ -29,7 +29,7 @@ body{
 	font-family: var(--font);
 	color: var(--nord1);
 	background: url('fondo2.jpg');
-	background-size: 110%;
+	background-size: 127%;
 }
 
 header{

@@ -28,7 +28,7 @@
 body{
 	font-family: var(--font);
 	color: var(--nord1);
-	background: url('fondo2.jpg');
+	background: url('fondo.jpg');
 	background-size: 127%;
 }
 
@@ -144,7 +144,7 @@ button{
 .contenedor-info{
 	margin-top: 10px;
 	width: 400px;
-	height: 885px;
+	height: 900px;
 	outline: 1px solid #52aa9c;
 	background-color: #52aa9c;
 	color: #ffffff;

@@ -143,8 +143,9 @@ button{
 
 .contenedor-info{
 	margin-top: 10px;
-	width: 400px;
+	width: 493px;
 	height: 900px;
+	margin-bottom: 1%;
 	outline: 1px solid #52aa9c;
 	background-color: #52aa9c;
 	color: #ffffff;

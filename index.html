@@ -1,81 +1,126 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Curriculum Vitae</title>
 
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" href="css/normalize.css">
 </head>
-
 <body class="contenedor">
-	<div class="contenedor-body">
-		<header>
-			<div class="contenedor-foto">
-				<div class="contenedor-foto-2">
-				<img class="foto-perfil" src="foto_perfil.jpg" alt="foto de perfil">
-				</div>
-			</div>
+    <div class="tamanio contenedor-body"><!--cuerpo-->
 
-			<div >
-				<div class="contenedor-nomApe">
-					<h1><span style="color: #1bb79a;">FEDERICO</span> ZANARDI</h1>
-				</div>
-				<div class="desarrollo-soft">
-					<h2>Desarrollo de Software</h2>	
-				</div>
-				<div class="contenedor-perfilProfecional">
-					<p><b><span style="color: #1bb79a;">Perfil Profesional:</span></b>
-					<br >
-						<span class="contenedor-perfilProfecional_contenido">
-							Desarrollador de sistemas informáticos como aplicaciones web,
-							base de datos, aplicaciones para pc, entre otras. Actualmente, 
-							estoy por recibirme de Técnico en Programación. Destaco entre mis
-							fortalezas, facilidad para aprender, autoeficacia y siempre estar
-							en constante aprendizaje.</span>
-					</p>
-				</div>
-			</div>
-		</header>
+        <div><!--nombre-->
+            <aside class="nombre-apellido">
+                <h1><span class="color-nombre">FEDERICO</span> ZANARDI</h1>
+            </aside>
+            <aside class="desarrollo-software">
+                <h2>Desarrollo de Software</h2>
+            </aside>
+        </div>
 
-		<section>
-			<article class="contenedor-info">
-				<div>	
+        <div class="contenedor-foto-perfil"><!--foto-->
+            <aside class="ubicacion-foto-perfil">
+                <img class="foto-perfil" src="imagen/foto_perfil.jpg" alt="foto de perfil">
+            </aside>
+        </div>
 
-					<ul >
-						<h3 style="margin-left: -30px;">CONTACTO</h3>
+        <div><!--perfil profesional-->
+            <p class="perfil-profesional"><b><span>Perfil Profesional:</span></b></p>
+            <span>
+                Desarrollador de sistemas informáticos como aplicaciones web,
+                base de datos, aplicaciones para pc, entre otras. Actualmente, 
+                estoy por recibirme de Técnico en Programación. Destaco entre mis
+                fortalezas, facilidad para aprender, autoeficacia y siempre estar
+                en constante aprendizaje.
+            </span>
+        </div>
 
-						<li class="vinieta-contacto">
-							<p>2920-613408</p>
-						</li>
+        <div><!--informacion academica-->
+            <aside>
+                <h4>INFORMACIÓN ACADÉMICA</h4>
+            </aside>
+            <aside>
+                <ul>
+                    <div>
+                        <li >Curso de Desarrollo Web Completo con HTML5,
+                            CSS3, JS AJAX PHP y MySQL - en Udemy</li>
+                        <li>Aprendizaje de Oracle APEX</li>
+                        <li>Curso en framework Django</li>
+                        <li>Futuro Técnico Superior en Desarrollo y Análisis de Sistemas Informáticos</li>
+                    </div>
+                </ul>
+            </aside>
 
-						<li class="vinieta-email">
-							<p>fedezanardi93@gmail.com</p>
-						</li>
+            <aside>
+                <h4>EXPERIENCIA DE TRABAJO</h4>
+            </aside>
+            <aside>
+                <ul>
+                    <div>
+                        <li>Consejo Escolar Valle Inferior (CEVI)</li>
+                        <li>Aplicacion web sobre estado de vacunacion en viedma</li>
+                        <li>Pagina Web - Sitio Freelancer</li>
+                        <li>Pagina Web - Blog Café</li>
+                        <li>Sitio Web - Bienes Raices</li>
+                    </div>
+                </ul>	
+            </aside>
 
-						<li class="vinieta-nacimiento">
-							<p>15/09/1993</p>
-						</li>
+            <aside>
+                <h4>HERRAMIENTAS DE DESARROLLO</h4>
+            </aside>
+            <aside>
+                <ul>
+                    <div>
+                        <li>HTML, CSS, javascript</li>
+                        <li>java, python, C, C++, C#, PHP</li>
+                        <li>SQL, SQLite</li>
+                        <li>MySQL</li>
+                        <li>Oracle APEX</li>
+                        <li>Django</li>
+                    </div>
+                </ul>	
+            </aside>
+        </div>
 
-						<li class="vinieta-dni">
-							<p>37.785.505</p>
-						</li>
+        <div><!--informacion personal-->
+            <div>
+                <h3>CONTACTO</h3>
+                <ul >
 
-						<li class="vinieta-ubicacion">
-							<p>Carmen de patagones, Buenos Aires</p>
-						</li>
+                    <li class="vinieta-contacto">
+                        <p>2920-613408</p>
+                    </li>
 
-						<li class="vinieta-web">
-							<a href="https://www.linkedin.com/in/federico-zanardi-0850a0209/"><button>in</button></a>
-						</li>
-						
-					</ul>
-					
-				</div>
-				<br> <br> <br>
-				<div class="contenedor-idiomas-conocimientos">
-					<h3>IDIOMAS</h3>
+                    <li class="vinieta-email">
+                        <p>fedezanardi93@gmail.com</p>
+                    </li>
+
+                    <li class="vinieta-nacimiento">
+                        <p>15/09/1993</p>
+                    </li>
+
+                    <li class="vinieta-dni">
+                        <p>37.785.505</p>
+                    </li>
+
+                    <li class="vinieta-ubicacion">
+                        <p>Carmen de patagones, Buenos Aires</p>
+                    </li>
+
+                    <li class="vinieta-web">
+                        <a href="https://www.linkedin.com/in/federico-zanardi-0850a0209/"><button>in</button></a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+            <br> <br> <br>
+
+            <div>
+                <h3>IDIOMAS</h3>
 					<p>Español
 						<br>
 						<progress value="100" max="100">100 %</progress>
@@ -114,65 +159,12 @@
 						<br>
 						<progress value="70" max="100">70 %</progress>
 					</p>
-
-				</div>
-
-			</article>
-
-			<aside>
-				<div class="informacion-academica">
-					<h4 class="informacion-academica_texto">INFORMACIÓN ACADÉMICA</h4>
-				</div>
-				<div>
-					<ul>
-						<div style="list-style-type: circle; line-height:25px; width: 80%;">
-							<li style="line-height:20px">Curso de Desarrollo Web Completo con HTML5,
-								CSS3, JS AJAX PHP y MySQL - en Udemy</li>
-							<li>Aprendizaje de Oracle APEX</li>
-							<li>Curso en framework Django</li>
-							<li style="line-height:20px">Futuro Técnico Superior en Desarrollo y Análisis de Sistemas Informáticos</li>
-						</div>
-					</ul>
-					
-				</div>
-
-				<div class="informacion-academica">
-					<h4 class="informacion-academica_texto">EXPERIENCIA DE TRABAJO</h4>
-				</div>
-				<div>
-					<ul>
-						<div style="list-style-type: circle; line-height:25px; width: 80%;">
-							<li>Consejo Escolar Valle Inferior (CEVI)</li>
-							<!--<img class="img-certificado" src="certificado.png" alt="CEVI">-->
-							<li>Aplicacion web sobre estado de vacunacion en viedma</li>
-							<li>Pagina Web - Sitio Freelancer</li>
-							<li>Pagina Web - Blog Café</li>
-							<li>Sitio Web - Bienes Raices</li>
-						</div>
-					</ul>	
-				</div>
-
-				<div class="informacion-academica">
-					<h4 class="informacion-academica_texto">HERRAMIENTAS DE DESARROLLO</h4>
-				</div>
-				<div>
-					<ul>
-						<div style="list-style-type: square; line-height:23px; width: 80%;">
-							<li>HTML, CSS, javascript</li>
-							<li>java, python, C, C++, C#, PHP</li>
-							<li>SQL, SQLite</li>
-							<li>MySQL</li>
-							<li>Oracle APEX</li>
-							<li>Django</li>
-						</div>
-					</ul>	
-				</div>
-			</aside>
-		</section>
-	</div>
-
-	<footer>
-		<h4 style="color:#ffffff;"><i><b>Esta página fue desarrollada por Federico Zanardi...<b></i></h4>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+		<h4><i><b>Esta página fue desarrollada por Federico Zanardi / 20-37.785.505-2 / +542920613408<b></i></h4>
 		<br>
 	</footer>
 </body>

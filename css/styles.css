@@ -100,6 +100,31 @@ body{
     padding-top: 4%;
 }
 
+
+.resaltador-titulo{	
+	color: #ffffff;
+	margin-top: 50px;
+	background-color: #52aa9c;	
+    text-align: center;
+}
+.resaltador-titulo-centrado{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+.contenedor-informacion-personal{
+	margin-top: 13px;
+	outline: 1px solid #52aa9c;
+	background-color: #52aa9c;
+	color: #ffffff;
+    padding-left: 1%;
+}
+
+.sangria{
+    margin-left: 3%;
+}
+
 .tamanio{
     display: grid;
     grid-template-columns: (2, 1fr);
@@ -116,5 +141,15 @@ body{
 
     .nombre-apellido{
         font-size: 23px;
+    }
+
+    .resaltador-titulo{	
+        color: #ffffff;
+        margin-top: 50px;
+        background-color: #52aa9c;
+        width: 280px;
+        text-align: start;
+        
+        
     }
 }

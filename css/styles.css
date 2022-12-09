@@ -56,7 +56,7 @@ body{
 }
 
 .contenedor{
-    width: 417px;
+    width: 358px;
 	height: 900px;
 	margin:30px auto;
 	background-color: #e9f9f1;
@@ -69,7 +69,7 @@ body{
 }
 
 .nombre-apellido{
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
 }
 .color-nombre{
@@ -80,7 +80,7 @@ body{
 }
 
 .contenedor-foto-perfil{
-    width: 400px;
+    width: 343px;
 	height: 250px;
 	background-color: #d0d0d0;
 }
@@ -125,6 +125,11 @@ body{
     margin-left: 3%;
 }
 
+
+footer{
+	text-align: center;
+}
+
 .tamanio{
     display: grid;
     grid-template-columns: (2, 1fr);
@@ -134,9 +139,7 @@ body{
 @media (min-width: 768px){
     .contenedor{
         width: 950px;
-        height: 900px;
         margin:30px auto;
-        background-color: #e9f9f1;
     }
 
     .nombre-apellido{
@@ -144,12 +147,7 @@ body{
     }
 
     .resaltador-titulo{	
-        color: #ffffff;
-        margin-top: 50px;
-        background-color: #52aa9c;
         width: 280px;
-        text-align: start;
-        
-        
+        text-align: start;        
     }
 }

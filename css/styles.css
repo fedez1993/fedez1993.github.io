@@ -90,7 +90,8 @@ body{
 }
 .foto-perfil{
     width: 200px;
-	height: 200px;
+    height: 200px;
+    padding-top: 7%;
 }
 
 .perfil-profesional{

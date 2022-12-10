@@ -9,46 +9,47 @@
 	<link rel="stylesheet" href="css/normalize.css">
 </head>
 <body class="contenedor">
-    <div class="tamanio contenedor-body"><!--cuerpo-->
+    <div class="contenedor-body contenedor-grid"><!--cuerpo-->
 
-        <div><!--nombre-->
+        <div class="nombre-apellido-grid"><!--nombre-->
             <aside class="nombre-apellido">
                 <h1><span class="color-nombre">FEDERICO</span> ZANARDI</h1>
             </aside>
             <aside class="desarrollo-software">
                 <h2>Desarrollo de Software</h2>
             </aside>
+
         </div>
 
         <div class="contenedor-foto-perfil"><!--foto-->
-            <aside class="ubicacion-foto-perfil">
+            <aside class="ubicacion-contenedor-foto-perfil">
                 <img class="foto-perfil" src="imagen/foto_perfil.jpg" alt="foto de perfil">
             </aside>
         </div>
 
-        <div><!--perfil profesional-->
-            <p class="perfil-profesional"><b><span>Perfil Profesional:</span></b></p>
-            <span>
-                Desarrollador de sistemas informáticos como aplicaciones web,
-                base de datos, aplicaciones para pc, entre otras. Actualmente, 
-                estoy por recibirme de Técnico en Programación. Destaco entre mis
-                fortalezas, facilidad para aprender, autoeficacia y siempre estar
-                en constante aprendizaje.
-            </span>
-        </div>
+        <div><!--informacion academica y perfil profesional-->
+            <div class="contenedor-perfil-profesional"><!--perfil profesional-->
+                <p class="perfil-profesional"><b><span>Perfil Profesional:</span></b></p>
+                <span class="perfil-profesional-texto">
+                    Desarrollador de sistemas informáticos como aplicaciones web,
+                    base de datos, aplicaciones para pc, entre otras. Actualmente, 
+                    estoy por recibirme de Técnico en Programación. Destaco entre mis
+                    fortalezas, facilidad para aprender, autoeficacia y siempre estar
+                    en constante aprendizaje.
+                </span>
+            </div>
 
-        <div><!--informacion academica-->
             <aside class="resaltador-titulo">
                 <h4 class="resaltador-titulo-centrado">INFORMACIÓN ACADÉMICA</h4>
             </aside>
             <aside>
                 <ul>
-                    <div>
-                        <li >Curso de Desarrollo Web Completo con HTML5,
+                    <div class="disenio-lista">
+                        <li class="disenio-lista-texto">Curso de Desarrollo Web Completo con HTML5,
                             CSS3, JS AJAX PHP y MySQL - en Udemy</li>
                         <li>Aprendizaje de Oracle APEX</li>
                         <li>Curso en framework Django</li>
-                        <li>Futuro Técnico Superior en Desarrollo y Análisis de Sistemas Informáticos</li>
+                        <li class="disenio-lista-texto">Futuro Técnico Superior en Desarrollo y Análisis de Sistemas Informáticos</li>
                     </div>
                 </ul>
             </aside>
@@ -58,7 +59,7 @@
             </aside>
             <aside>
                 <ul>
-                    <div>
+                    <div class="disenio-lista">
                         <li>Consejo Escolar Valle Inferior (CEVI)</li>
                         <li>Aplicacion web sobre estado de vacunacion en viedma</li>
                         <li>Pagina Web - Sitio Freelancer</li>
@@ -73,7 +74,7 @@
             </aside>
             <aside>
                 <ul>
-                    <div>
+                    <div class="disenio-lista">
                         <li>HTML, CSS, javascript</li>
                         <li>java, python, C, C++, C#, PHP</li>
                         <li>SQL, SQLite</li>
@@ -111,7 +112,7 @@
                     </li>
 
                     <li class="vinieta-web">
-                        <a href="https://www.linkedin.com/in/federico-zanardi-0850a0209/"><button>in</button></a>
+                        <a href="https://www.linkedin.com/in/federico-zanardi-0850a0209/"><button class="boton-in">in</button></a>
                     </li>
                     
                 </ul>

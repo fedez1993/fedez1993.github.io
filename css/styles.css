@@ -21,7 +21,6 @@
 }
 
 /*viñetas*/ 
-
 .vinieta-contacto{
 	list-style-type: '📱   ';
 }
@@ -84,7 +83,7 @@ body{
 	height: 250px;
 	background-color: #d0d0d0;
 }
-.ubicacion-foto-perfil{
+.ubicacion-contenedor-foto-perfil{
     display: flex;
     justify-content: center;
     margin-top: 7%;
@@ -126,28 +125,79 @@ body{
 }
 
 
+.boton-in{
+	background-color: #2962ff;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.disenio-lista{
+	list-style-type: circle;
+	line-height: 25px;
+}
+
+.disenio-lista-texto{
+	line-height: 15px
+}
+
 footer{
 	text-align: center;
 }
 
-.tamanio{
-    display: grid;
-    grid-template-columns: (2, 1fr);
-}
-
 
 @media (min-width: 768px){
+
+	.contenedor-grid{
+		display: grid;
+		grid-template-columns: 43% 57%;
+	}
+
+	.contenedor-foto-perfil{
+		grid-row: 1 / 2;
+		width: 400px;
+	}
+
+	.contenedor-informacion-personal{
+		grid-row: 2 / 3;
+	}
+
     .contenedor{
         width: 950px;
         margin:30px auto;
     }
 
+	.nombre-apellido-grid{
+		grid-column: 2 / 3;
+		outline: 2px solid #000000b0;
+		margin-left: 1.5%;
+		height: 239px;
+		margin-top: 5px;
+	}
+
     .nombre-apellido{
         font-size: 23px;
+		margin-top: 11%;
     }
 
-    .resaltador-titulo{	
-        width: 280px;
-        text-align: start;        
-    }
+	.desarrollo-software{
+		margin-left: 27%;
+		margin-top: 6%;
+	}
+
+	.foto-perfil{
+		margin-top: -1%;
+	}
+
+	.contenedor-perfil-profesional{
+		margin-left: 2%;
+	}
+
+	.perfil-profesional-texto{
+		font-size: 14px;
+	}
+
+	
 }
